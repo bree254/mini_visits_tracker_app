@@ -1,4 +1,4 @@
-# my_flutter_starter_shell
+# mini_visits_tracker_app
 
 
 lib/
@@ -37,3 +37,11 @@ lib/
 │
 └── main.dart
 # mini_visits_tracker_app
+
+## 📱 App Screenshots
+
+### Home Screen
+![Home Screen](screenshots/android/home_screen.jpg)
+
+### Create Visit
+![create visit](screenshots/android/create_visit.jpg)
