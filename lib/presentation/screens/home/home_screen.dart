@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:intl/intl.dart';
-import 'package:my_flutter_starter_shell/core/app_export.dart';
-import 'package:my_flutter_starter_shell/core/routes/routes.dart';
-import 'package:my_flutter_starter_shell/presentation/screens/home/controllers/home_controller.dart';
+import 'package:mini_visits_tracker_app/core/app_export.dart';
+import '../../../core/routes/routes.dart';
 import '../../../core/theme/app_decoration.dart';
 import '../../../core/theme/app_text_styles.dart';
+import '../../../core/theme/theme_helper.dart';
+import 'controllers/home_controller.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});

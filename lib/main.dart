@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:my_flutter_starter_shell/core/app_export.dart';
-import 'package:my_flutter_starter_shell/core/routes/routes.dart';
-
+import 'core/routes/routes.dart';
 import 'core/utils/initial_bindings.dart';
+import 'core/utils/size_utils.dart';
 
 void main() {
   runApp(const MyApp());

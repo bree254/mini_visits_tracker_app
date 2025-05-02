@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:dropdown_textfield/dropdown_textfield.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
-import 'package:my_flutter_starter_shell/core/app_export.dart';
-import 'package:my_flutter_starter_shell/data/models/customers/customer_response.dart';
-import 'package:my_flutter_starter_shell/presentation/screens/home/controllers/home_controller.dart';
-import 'package:my_flutter_starter_shell/presentation/screens/vists/controllers/create_visits_controller.dart';
+import 'package:mini_visits_tracker_app/core/app_export.dart';
 import '../../../core/theme/theme_helper.dart';
 import '../../../data/models/activity_items.dart';
+import '../../../widgets/custom_elevated_button.dart';
 import '../../../widgets/custom_text_form_field.dart';
+import '../home/controllers/home_controller.dart';
+import 'controllers/create_visits_controller.dart';
 
 class CreateVisit extends StatefulWidget {
   CreateVisit({
@@ -176,7 +178,7 @@ class _CreateVisitState extends State<CreateVisit> {
                       ),
                       SizedBox(height: 8.v),
                       Container(
-                        height: 200, // Set your desired height here
+                        height: 200.v,
                         decoration: BoxDecoration(
                           color: appTheme.grayBackground,
                           borderRadius: BorderRadius.circular(10.h),

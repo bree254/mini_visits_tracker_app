@@ -1,9 +1,7 @@
 import 'package:dropdown_textfield/dropdown_textfield.dart';
 import 'package:get/get.dart';
-import 'package:my_flutter_starter_shell/core/routes/routes.dart';
-import 'package:my_flutter_starter_shell/data/models/combined_visits.dart';
+import '../../../../core/routes/routes.dart';
 import '../../../../data/models/customers/customer_response.dart';
-import '../../../../data/models/visits/visits_response.dart';
 import '../../../../data/repository/create_visit_repository.dart';
 import '../../../../data/repository/home_repository.dart';
 import 'package:flutter/cupertino.dart';

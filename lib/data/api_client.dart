@@ -1,16 +1,14 @@
 import 'dart:ui';
-
 import 'package:dio/dio.dart' as dio;
 import 'package:flutter/material.dart';
-import 'package:my_flutter_starter_shell/core/constants/api_constants.dart';
-import 'package:my_flutter_starter_shell/data/models/activities/activity_response.dart';
-import 'package:my_flutter_starter_shell/data/models/customers/customer_response.dart';
-import 'package:my_flutter_starter_shell/data/models/visits/visits_response.dart';
-
 import '../../core/app_export.dart';
+import '../core/constants/api_constants.dart';
 import '../core/theme/app_text_styles.dart';
 import '../core/utils/logger.dart';
 import 'endpoints.dart';
+import 'models/activities/activity_response.dart';
+import 'models/customers/customer_response.dart';
+import 'models/visits/visits_response.dart';
 import 'network_interceptors.dart';
 
 class ApiClient extends GetConnect {

@@ -1,11 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:my_flutter_starter_shell/data/models/combined_visits.dart';
-import 'package:my_flutter_starter_shell/data/models/visits/visits_response.dart';
-import 'package:my_flutter_starter_shell/data/repository/home_repository.dart';
-
 import '../../../../data/models/activities/activity_response.dart';
+import '../../../../data/models/combined_visits.dart';
 import '../../../../data/models/customers/customer_response.dart';
+import '../../../../data/models/visits/visits_response.dart';
+import '../../../../data/repository/home_repository.dart';
 
 class HomeController extends GetxController{
 

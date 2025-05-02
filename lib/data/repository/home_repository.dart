@@ -1,7 +1,6 @@
-import 'package:my_flutter_starter_shell/data/models/activities/activity_response.dart';
-import 'package:my_flutter_starter_shell/data/models/customers/customer_response.dart';
-
 import '../api_client.dart';
+import '../models/activities/activity_response.dart';
+import '../models/customers/customer_response.dart';
 import '../models/visits/visits_response.dart';
 
 class HomeRepository {

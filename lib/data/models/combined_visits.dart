@@ -1,4 +1,4 @@
-import 'package:my_flutter_starter_shell/data/models/visits/visits_response.dart';
+import 'package:mini_visits_tracker_app/data/models/visits/visits_response.dart';
 
 class AllVisits {
 
