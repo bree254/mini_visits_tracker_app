@@ -26,8 +26,7 @@
     ├── presentation                - It contains widgets of the screens with their controllers  of the whole application.                                          
     └── widgets                     - It contains all custom widget classes
 ```
-```
-# mini_visits_tracker_app
+
 
 ## 📱 App Screenshots
 
